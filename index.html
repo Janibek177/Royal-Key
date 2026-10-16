@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>ROYAL KEY — The Kingdom of Secrets</title>
+    <link rel="icon" type="img/png" href="weblogo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+    <div class="intro">
+        <div class="gate">
+            <div class="doors">
+                <div class="light"></div>
+                <div class="door left"></div>
+                <div class="door right"></div>
+            </div>
+            <svg class="lock" aria-hidden="true"><use href="#lock"/></svg>
+            <svg class="key" aria-hidden="true"><use href="#key"/></svg>
+        </div>
+        <button class="start" type="button">START</button>
+    </div>
+
+    <div class="site">
+        <div class="progress"></div>
+        
+        <header class="header">
+            <a class="brand" href="#home" aria-label="Royal Key home">
+                <svg viewBox="0 0 100 100" aria-hidden="true">
+                    <use href="#crown" y="-14" height="64" width="64" x="18"/>
+                    <use href="#key" transform="translate(12 60) scale(.44)" width="200" height="50"/>
+                </svg>
+                <span>ROYAL KEY</span>
+            </a>
+            <button class="toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="menu" aria-label="Main">
+                <a href="#home">HOME</a>
+                <a href="#collection">COLLECTION</a>
+                <a href="#legend">THE LEGEND</a>
+                <a href="#about">ABOUT</a>
+                <a class="button small" href="#collection">ENTER THE KINGDOM</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="banner" id="home">
+                <div class="content">
+                    <p class="label" style="--i:1">THE GATES ARE OPEN</p>
+                    <h1 style="--i:2">THE KINGDOM OF SECRETS</h1>
+                    <div class="divider" style="--i:3"><svg aria-hidden="true"><use href="#crown"/></svg></div>
+                    <p class="subtitle" style="--i:4">Every door holds a secret. Every key reveals a legend.</p>
+                    <div class="actions" style="--i:5">
+                        <a class="button" href="#collection">EXPLORE THE KINGDOM</a>
+                        <a class="button dark" href="#legend">DISCOVER THE LEGEND</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bridge"><svg aria-hidden="true"><use href="#key"/></svg></div>
+
+            <section class="section" id="collection">
+                <div class="title reveal">
+                    <p class="label">THE ROYAL VAULT</p>
+                    <h2>Royal Key and Lock Collection</h2>
+                    <div class="divider"><svg aria-hidden="true"><use href="#key"/></svg></div>
+                </div>
+                <div class="cards">
+                    <article class="card reveal" style="--tint:#4B101B" data-more="Forged in the first age of the kingdom, this key was carried only by the reigning monarch. Its teeth match no common lock, and chroniclers claim it opens the vaults beneath the throne room, the sealed archive, and the chamber where the crown rests.">
+                        <svg class="mark" aria-hidden="true"><use href="#crown"/></svg>
+                        <div class="art"><svg class="wide" viewBox="0 0 200 50" aria-hidden="true"><use href="#key"/></svg></div>
+                        <h3>THE KING'S KEY</h3>
+                        <p class="text">An ancient key said to unlock the most guarded chambers of the kingdom.</p>
+                        <button class="button small" type="button">LEARN MORE</button>
+                    </article>
+                    <article class="card reveal" style="--tint:#25090F" data-more="Cast in bronze and engraved with the crest of the royal house, the seal once guarded the treasury door. Its mechanism has twelve hidden wards, and no thief ever opened it without the matching key.">
+                        <svg class="mark" aria-hidden="true"><use href="#shield"/></svg>
+                        <div class="art"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#lock"/></svg></div>
+                        <h3>THE ROYAL SEAL</h3>
+                        <p class="text">A symbol of royal protection, secrecy, and unbreakable loyalty.</p>
+                        <button class="button small" type="button">LEARN MORE</button>
+                    </article>
+                    <article class="card reveal" style="--tint:#15110E" data-more="Built from black oak and bound with aged iron, the Shadow Gate stands at the edge of the old castle grounds. Travelers say it only appears at dusk, and that no one has ever seen what waits on the other side.">
+                        <svg class="mark" aria-hidden="true"><use href="#key"/></svg>
+                        <div class="art"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#gate"/></svg></div>
+                        <h3>THE SHADOW GATE</h3>
+                        <p class="text">A forgotten gateway hiding secrets lost to time.</p>
+                        <button class="button small" type="button">LEARN MORE</button>
+                    </article>
+                    <article class="card reveal" style="--tint:#3a2a12" data-more="This golden chalice was handed from king to king at every coronation. Its engravings tell the story of the kingdom's founding, and the red jewel at its heart is said to glow when a rightful heir draws near.">
+                        <svg class="mark" aria-hidden="true"><use href="#lock"/></svg>
+                        <div class="art"><svg viewBox="0 0 100 100" aria-hidden="true"><use href="#relic"/></svg></div>
+                        <h3>THE GOLDEN RELIC</h3>
+                        <p class="text">A legendary treasure preserved through generations of kings.</p>
+                        <button class="button small" type="button">LEARN MORE</button>
+                    </article>
+                </div>
+            </section>
+
+            <div class="bridge"><svg aria-hidden="true"><use href="#lock"/></svg></div>
+
+            <section class="legend" id="legend">
+                <div class="page reveal">
+                    <svg class="seal" aria-hidden="true"><use href="#crown"/></svg>
+                    <p class="label">FROM THE ROYAL MANUSCRIPT</p>
+                    <h2>The Legend of the Golden Key</h2>
+                    <div class="divider"><svg aria-hidden="true"><use href="#lock"/></svg></div>
+                    <p class="story">Legend tells of a forgotten kingdom hidden behind magnificent gates. At its heart rested a Golden Key, forged by the finest royal craftsmen and protected by an ancient lock. Only those who discover its secrets may enter the kingdom beyond.</p>
+                </div>
+            </section>
+
+            <div class="bridge"><svg aria-hidden="true"><use href="#crown"/></svg></div>
+
+            <section class="band" id="realms" style="--x:#4B101B">
+                <div class="section">
+                    <div class="title reveal">
+                        <p class="label">PLACES OF POWER</p>
+                        <h2>The Realms of the Kingdom</h2>
+                        <div class="divider"><svg aria-hidden="true"><use href="#crown"/></svg></div>
+                    </div>
+                    <div class="tiles">
+                        <article class="tile reveal">
+                            <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#gate"/></svg>
+                            <h3>THE OBSIDIAN KEEP</h3>
+                            <p class="text">A fortress of black stone where the oldest gates of the kingdom still stand watch.</p>
+                        </article>
+                        <article class="tile reveal">
+                            <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#crown"/></svg>
+                            <h3>THE GILDED HALL</h3>
+                            <p class="text">The grand throne hall, where kings received visitors beneath ceilings of beaten gold.</p>
+                        </article>
+                        <article class="tile reveal">
+                            <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#lock"/></svg>
+                            <h3>THE HIDDEN VAULT</h3>
+                            <p class="text">A chamber beneath the castle where the greatest treasures wait behind twelve locks.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bridge"><svg aria-hidden="true"><use href="#shield"/></svg></div>
+
+            <section class="band" id="craft" style="--x:#15110E">
+                <div class="section">
+                    <div class="title reveal">
+                        <p class="label">THE ROYAL FORGE</p>
+                        <h2>How a Golden Key Is Made</h2>
+                        <div class="divider"><svg aria-hidden="true"><use href="#key"/></svg></div>
+                    </div>
+                    <div class="tiles steps">
+                        <article class="tile reveal">
+                            <h3>GATHERING THE GOLD</h3>
+                            <p class="text">Royal miners bring raw gold from the northern mountains, and it is purified in the forge.</p>
+                        </article>
+                        <article class="tile reveal">
+                            <h3>CASTING THE BLANK</h3>
+                            <p class="text">Molten gold is poured into clay moulds shaped by the master locksmith.</p>
+                        </article>
+                        <article class="tile reveal">
+                            <h3>ENGRAVING THE WARDS</h3>
+                            <p class="text">Fine tools carve the hidden teeth and crests that make every key unique.</p>
+                        </article>
+                        <article class="tile reveal">
+                            <h3>SEALING THE LOCK</h3>
+                            <p class="text">The finished key is tested once, then sealed inside its lock forever.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bridge"><svg aria-hidden="true"><use href="#key"/></svg></div>
+
+            <section class="band" id="guardians" style="--x:#25090F">
+                <div class="section">
+                    <div class="title reveal">
+                        <p class="label">SWORN TO SILENCE</p>
+                        <h2>The Guardians of the Gates</h2>
+                        <div class="divider"><svg aria-hidden="true"><use href="#shield"/></svg></div>
+                    </div>
+                    <div class="tiles">
+                        <article class="tile reveal">
+                            <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#key"/></svg>
+                            <h3>THE KEYBEARERS</h3>
+                            <p class="text">Sworn nobles who carry the royal keys and never let them leave their sight.</p>
+                        </article>
+                        <article class="tile reveal">
+                            <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#gate"/></svg>
+                            <h3>THE GATEWARDENS</h3>
+                            <p class="text">Silent knights who guard every door of the castle from dusk until dawn.</p>
+                        </article>
+                        <article class="tile reveal">
+                            <svg viewBox="0 0 100 100" aria-hidden="true"><use href="#relic"/></svg>
+                            <h3>THE ARCHIVISTS</h3>
+                            <p class="text">Scholars who record each secret in ink and hide the records where only a few can find them.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bridge"><svg aria-hidden="true"><use href="#lock"/></svg></div>
+
+            <section class="band" id="chronicle" style="--x:#3a2a12">
+                <div class="section">
+                    <div class="title reveal">
+                        <p class="label">A HISTORY IN FOUR AGES</p>
+                        <h2>The Royal Chronicle</h2>
+                        <div class="divider"><svg aria-hidden="true"><use href="#lock"/></svg></div>
+                    </div>
+                    <div class="timeline">
+                        <div class="event reveal">
+                            <h3>THE FIRST AGE</h3>
+                            <p class="text">The kingdom is founded behind great oak gates, and the first Golden Key is forged.</p>
+                        </div>
+                        <div class="event reveal">
+                            <h3>THE AGE OF GATES</h3>
+                            <p class="text">Hundreds of doors rise across the castle, each guarded by its own lock.</p>
+                        </div>
+                        <div class="event reveal">
+                            <h3>THE SILENT YEARS</h3>
+                            <p class="text">The gates close without warning, and the kingdom vanishes from every map.</p>
+                        </div>
+                        <div class="event reveal">
+                            <h3>THE AWAKENING</h3>
+                            <p class="text">The gates open again for those who carry the key, and the legend begins anew.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bridge"><svg aria-hidden="true"><use href="#crown"/></svg></div>
+
+            <section class="section" id="about">
+                <div class="about reveal">
+                    <svg class="seal" aria-hidden="true"><use href="#shield"/></svg>
+                    <h2>About Royal Key</h2>
+                    <div class="divider"><svg aria-hidden="true"><use href="#crown"/></svg></div>
+                    <p class="text">Royal Key is a fictional kingdom of enormous oak gates, engraved locks, and golden keys. Each artifact in our collection carries a story, and each story opens another door.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="crest">
+                <svg aria-hidden="true"><use href="#crown"/></svg>
+                <h2>ROYAL KEY</h2>
+                <p class="text">Every door holds a secret. Every key reveals a legend.</p>
+            </div>
+            <div class="columns">
+                <div><h4>EXPLORE</h4><a href="#home">Home</a><a href="#collection">Collection</a><a href="#legend">The Legend</a><a href="#about">About</a></div>
+                <div><h4>THE KINGDOM</h4><a href="#realms">The Realms</a><a href="#craft">The Craft</a><a href="#guardians">The Guardians</a><a href="#chronicle">The Chronicle</a></div>
+                <div><h4>ARTIFACTS</h4><a href="#collection">The King's Key</a><a href="#collection">The Royal Seal</a><a href="#collection">The Shadow Gate</a><a href="#collection">The Golden Relic</a></div>
+                <div><h4>ROYAL MOTTO</h4><p class="text">Only those who discover its secrets may enter the kingdom beyond.</p></div>
+            </div>
+            <div class="bottom">
+                <p>2026 ROYAL KEY. A fictional kingdom of secrets.</p>
+                <a class="button small" href="#home">RETURN TO THE GATES</a>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="panel">
+            <button class="close" type="button" aria-label="Close"></button>
+            <div class="art"></div>
+            <h3 id="modal-title"></h3>
+            <div class="divider"><svg aria-hidden="true"><use href="#crown"/></svg></div>
+            <p class="text short"></p>
+            <p class="text more"></p>
+        </div>
+    </div>
+
+        <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <defs>
+            <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#F3D995"/>
+                <stop offset=".5" stop-color="#C9A45C"/>
+                <stop offset="1" stop-color="#805B2C"/>
+            </linearGradient>
+        </defs>
+        <symbol id="key" viewBox="0 0 200 50">
+            <path fill="url(#gold)" fill-rule="evenodd" d="M172 3a22 22 0 1 0 .01 0zM172 15a10 10 0 1 1-.01 0zM10 21h140v8H10zM10 29h8v13h-8zM24 29h7v9h-7zM150 17h8v16h-8z"/>
+        </symbol>
+        <symbol id="lock" viewBox="0 0 100 100">
+            <path d="M30 20v-6a20 20 0 0 1 40 0v6" fill="none" stroke="url(#gold)" stroke-width="7"/>
+            <rect x="14" y="20" width="72" height="62" rx="8" fill="url(#gold)"/>
+            <rect x="20" y="26" width="60" height="50" rx="5" fill="none" stroke="#4B101B" stroke-width="2"/>
+            <circle cx="50" cy="46" r="7" fill="#090909"/>
+            <path d="M47 48h6l2 14h-10z" fill="#090909"/>
+        </symbol>
+        <symbol id="crown" viewBox="0 0 100 100">
+            <path fill="url(#gold)" d="M10 78 6 30l24 22 20-34 20 34 24-22-4 48zM10 82h80v9H10z"/>
+        </symbol>
+        <symbol id="shield" viewBox="0 0 100 100">
+            <path fill="url(#gold)" d="M50 6l38 14v30c0 24-18 38-38 46-20-8-38-22-38-46V20z"/>
+            <path fill="#25090F" d="M50 18l26 10v22c0 18-13 28-26 35-13-7-26-17-26-35V28z"/>
+            <path fill="url(#gold)" d="M44 34h12v16l8 14H36l8-14z"/>
+        </symbol>
+        <symbol id="gate" viewBox="0 0 100 100">
+            <path d="M12 94V42C12 22 28 8 50 8s38 14 38 34v52z" fill="#15110E" stroke="url(#gold)" stroke-width="4"/>
+            <path d="M50 8v86M12 40h76M12 70h76" stroke="url(#gold)" stroke-width="3" fill="none"/>
+            <circle cx="43" cy="55" r="3" fill="url(#gold)"/>
+            <circle cx="57" cy="55" r="3" fill="url(#gold)"/>
+        </symbol>
+        <symbol id="relic" viewBox="0 0 100 100">
+            <path fill="url(#gold)" d="M26 10h48c0 30-11 42-24 44C37 52 26 40 26 10zM46 54h8v22h-8zM30 92c0-11 11-16 20-16s20 5 20 16z"/>
+            <circle cx="50" cy="26" r="7" fill="#4B101B"/>
+        </symbol>
+    </svg>
+
+    <script src="script.js"></script>
+</body>
+</html>
